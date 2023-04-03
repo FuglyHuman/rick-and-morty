@@ -117,7 +117,6 @@ function App() {
   }
   
 
-
   async function carregarTodosOsPersonagens() {
     const retorno = await fetch("https://rickandmortyapi.com/api/character", {
       method: "GET",
